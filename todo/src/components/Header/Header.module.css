@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  height: 4rem;
+}
+
+.DateStyleClass {
+  display: flex;
+  width: auto;
+    height: auto; 
+  border: 1px solid #ececec;
+  /* background-color: #2a2a2a; */
+  color: black;
+  /* border-radius: 12px; */
+  align-items: center;
+  justify-content: center;
+}
+.DayStyleClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MonthAndYear .Date {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.MonthAndYear .Month {
+  font-size: 0.68rem;
+    font-weight: 400;
+}
+.MonthAndYear .Year {
+  font-size: 0.75rem;
+  font-weight: lighters;
+}
